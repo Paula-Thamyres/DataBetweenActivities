@@ -52,3 +52,7 @@ Sinta-se à vontade para contribuir com melhorias ou correções! Para isso, abr
 Licença
 Este projeto está licenciado sob a MIT License.
 
+
+Segunda versão commit
+
+Alteração: Passando o objeto entre as activites, criada a classe Pessoa, os dados obtidos dos campos de texto (EditTexts) foram passados para esse objeto.
