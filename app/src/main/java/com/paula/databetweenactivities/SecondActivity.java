@@ -31,13 +31,11 @@ public class SecondActivity extends AppCompatActivity {
         textIdade = findViewById(R.id.text_idade);
         textAltura = findViewById(R.id.text_altura);
 
-        String nome = (String) getIntent().getSerializableExtra("meu_nome");
-        int idade = (Integer) getIntent().getSerializableExtra("minha_idade");
-        double altura = (Double) getIntent().getSerializableExtra("minha_altura");
+        Pessoa pessoa = (Pessoa) getIntent().getSerializableExtra("pessoa");
 
-        textNome.setText(nome);
-        textIdade.setText(String.valueOf(idade));
-        textAltura.setText(String.valueOf(altura));
+        textNome.setText(pessoa.getNome());
+        textIdade.setText(String.valueOf(pessoa.getIdade()));
+        textAltura.setText(String.valueOf(pessoa.getAltura()));
 
     }
 }
