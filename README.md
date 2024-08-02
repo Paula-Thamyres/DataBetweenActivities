@@ -25,6 +25,7 @@ Java: Linguagem de programação utilizada.
 XML: Linguagem para layout das Activities.
 
 Como usar:
+
 1 - Clone este repositório: 
 
 ```sh
